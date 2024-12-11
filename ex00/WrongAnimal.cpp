@@ -22,7 +22,7 @@ WrongAnimal& WrongAnimal::operator=(const WrongAnimal& other)
 
 WrongAnimal::~WrongAnimal()
 {
-    std::cout <<" Destructor WrongAnimal called.\n";
+    std::cout <<"Destructor WrongAnimal called.\n";
 }
 
 

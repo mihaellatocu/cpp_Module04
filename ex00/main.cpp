@@ -16,16 +16,15 @@ int main()
 
   const WrongAnimal* meta2 = new WrongAnimal();
   const WrongAnimal* i2 = new WrongCat();
-  std::cout << i2->getType() << " type " << std::endl;
+  std::cout << i2->getType() << " " << std::endl;
   i2->makeSound(); //will output the cat sound!
   meta2->makeSound();
-   
+  std::cout <<BOLD_MAGENTA "[Destructors: ]\n" RST; 
   delete j;
   delete i;
   delete meta;
   delete i2;
   delete meta2;
   
-
   return (0);
 }
